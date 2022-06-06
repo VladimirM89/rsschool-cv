@@ -50,7 +50,7 @@ ___
 
 No work expierence in Frontend.
 
-Example of my [CV project]().
+Example of my [CV project](https://vladimirm89.github.io/rsschool-cv/cv).
 
 ___
 
