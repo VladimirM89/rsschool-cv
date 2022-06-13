@@ -1,12 +1,151 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h2>Some text here</h2>
-</body>
-</html>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CV</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="icon" href="./assets/img/favicon.ico">
+        
+      </head>
+      <body>
+        <header class="main-header">
+          <div class="container  header-container">
+            <nav>
+              <ul class="nav-list">
+                <li><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li><a href="#summary" class="nav-link">Summary</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#code" class="nav-link">Code</a></li>
+                <li><a href="#work" class="nav-link">Work</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#lang" class="nav-link">Languages</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+          
+        <main class="main-main">
+          <div class="container main-container">
+            <section class="section section-profile">
+              <img src="./assets/img/Photo.jpg" alt="My photo" class="section-prof-logo">
+              <div class="section-prof-title"> 
+                <h1 class="section-title main-title">Vladimir Milashevsky</h1>
+                <h2 class="section-subtitle">Student of RS School</h2>
+              </div>
+            </section>
+  
+            <section class="section" id="contacts">
+              <h2 class="section-title">Contacts</h2>
+              <ul class="section-list">
+                <li class="contact-item">
+                  <img src="./assets/svg/location_icon.svg" alt="location icon">Minsk, Belarus
+                </li>
+                <li class="contact-item">
+                  <img src="./assets/svg/email_icon.svg" alt="email" >
+                  <a href="mailto:v.milashevsky@gmail.com" class="link" target="_blank">Email: v.milashevsky@gmail.com</a>
+                </li>
+                <li class="contact-item">
+                  <img src="./assets/svg/telegram_icon.svg" alt="Telegram">
+                    <a href="https://t.me/Vladimir" class="link" target="_blank">Telegram</a>
+                </li>
+                <li class="contact-item">
+                  <img src="./assets/svg/discord_icon.svg" alt="discord" >
+                    <a href="https://discord.gg/ndGSffum" class="link" target="_blank">Vladimir Milashevsky#5628</a>
+                </li>
+              </ul>
+            </section>
+              
+            <section class="section" id="summary">
+              <h2 class="section-title">Summary</h2>
+              <p> My name is Vladimir and i'm 32 years old. I've been wokring as an engineer more than 5 years in the field of communication.
+                All this time need to progress, study a lot of new documentation such as manuals for equipments, release notes for new software 
+                releases and so on. During this time i became good specialist in my field. Nowdays I work like a pre and post-sale engineer and 
+                as a trainer for colleagues, customers and partners from different countries.            
+                <br>But it is maximum in this field and decide to try something new. Frontend development was always interesting. 
+                It has a lot of technologies where possible to see immediately the result ot your work.            
+                <br>My goal is to gain new knowledge, experience that will allow me to work as a frontend developer.
+                And I hope RS School help me to reach it.
+              </p>
+            </section>
+            <section class="section" id="skills">
+              <h2 class="section-title">Skills</h2>
+              <ul class="section-list">
+                <li class="section-item">HTML (Basic)</li>
+                <li class="section-item">JavaScript (Basic)</li>
+                <li class="section-item">VS Code (Basic)</li>
+                <li class="section-item">Git/GitHub</li>
+              </ul>
+
+            </section>
+          <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <pre class="pre">
+              <code>function multiply(a, b){
+                let sum = 0
+                return sum = a * b
+                }
+            </code>
+            </pre>
+            
+          </section>
+          <section class="section" id="work">
+            <h2 class="section-title">Work experience</h2>
+            <p>
+              No work expierence in Frontend. 
+              <br>Example of my <a href="https://vladimirm89.github.io/rsschool-cv/" class="link" target="_blank"><b>CV project</b></a>
+
+            </p>
+
+          </section>
+          <section class="section" id="education">
+            <h2 class="section-title">Education/Courses</h2>
+            <ul class="section-list">
+              <li class="section-item">
+                Radio communication, broadcasting and television systems
+                <ul>
+                  <li>Belarusian State Academy of Communications</li>
+                </ul>
+              </li>
+              <li class="section-item">
+                BSUIR
+                <ul>
+                  <li>Information technologies and management in technical systems</li>
+                </ul>
+              </li>
+              <li class="section-item">CISCO CCNA Training</li>
+              <li class="section-item">RS Sсhool</li>
+            </ul>
+
+          </section>
+          <section class="section section-last" id="lang">
+            <h2 class="section-title">Languages</h2>
+            <ul class="section-list">
+              <li class="section-item">Belarussian - native</li>
+              <li class="section-item">Russian</li>
+              <li class="section-item">English B1/B2 (<a href="https://str.by/" class="link" target="_blank">Streamline</a>)</li>
+            </ul>
+
+          </section>
+          </div>
+        </main>
+
+        <footer class="main-footer">
+          <div class="container footer-container">
+            <div>
+              © 2022
+              <a href="https://github.com/VladimirM89" class="footer-link nav-link" target="_blank">Visit my GitHub</a>
+            </div>
+            <a href="https://rs.school/js/" class="rss" target="_blank"></a> 
+          </div>
+          
+            
+          
+          
+
+        </footer>
+
+          
+      </body>
+      </html>
