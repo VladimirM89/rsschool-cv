@@ -45,12 +45,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
 }
 
 .body {
   background-color: #5c5c5c;
-
 }
 
 .container {
@@ -72,13 +70,11 @@ body {
   padding: 20px
 }
 
-
 .nav-list {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   list-style: none;
-  
 }
 
 .nav-link {
@@ -100,7 +96,6 @@ body {
   background-color: #fff;
   opacity: 0;
   transition: .5s;
-
 }
   
 .nav-link:hover::after {
@@ -108,7 +103,6 @@ body {
   animation-name: slidein;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-
 }
 
 .nav-list:hover {
@@ -182,7 +176,6 @@ body {
   border-radius: 50%;
   box-shadow: 0 1px 20px rgba(0, 0, 0, .6);
   filter: grayscale(0.2) brightness(1.05);
-  
 }
 
 .section-item {
@@ -240,7 +233,6 @@ body {
   color: blue
 }
 
-
 .footer-link {
   color: #fbfbfb;
   text-decoration: none;
@@ -260,4 +252,3 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
